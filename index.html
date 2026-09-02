@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SGKS Silks - Timeless silk sarees woven for your most cherished moments. Explore Kancheepuram, Banarasi, Mysore, Soft Silks, Lightweight Kancheepuram, and Kerala Sarees.">
+  <title>SGKS Silks - Handcrafted Pure Silk Sarees</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- 1. Header Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="nav-brand" id="nav-brand-logo">
+        <div class="nav-brand-icon"><i class="fas fa-gem"></i></div>
+        SGKS <span>Silks</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#collections" class="nav-link" id="nav-collections">Collections</a></li>
+          <li><a href="#why-us" class="nav-link" id="nav-why-us">Why Us</a></li>
+          <li><a href="#featured" class="nav-link" id="nav-featured">Featured</a></li>
+          <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-cta"><i class="fas fa-paper-plane"></i> Inquire Now</a>
+        <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero Section (Product-Focused Value Proposition) -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="hero-badge"><i class="fas fa-award"></i> Authentic Silk Craftsmanship</span>
+        <h1 class="hero-title">Timeless Silk Sarees, Woven for Your Most Cherished Moments</h1>
+        <p class="hero-subtitle">Discover handcrafted Mulberry silk sarees rich with pure zari brocades and centuries of handloom weaving heritage.</p>
+        <div class="hero-cta">
+          <a href="#collections" class="btn btn-primary"><i class="fas fa-compass"></i> Explore Collections</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Inquire Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Signature Silk Collections Section -->
+    <section class="collections section-padding" id="collections">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Silk Heritage</span>
+          <h2 class="section-title">Our Signature Silk Collections</h2>
+          <p class="section-description">Explore 6 distinct authentic silk material traditions woven by master artisans.</p>
+        </div>
+
+        <div class="collections-grid">
+          <!-- Collection 1: Kancheepuram -->
+          <div class="collection-card" onclick="scrollToFeatured('kancheepuram')">
+            <div class="collection-image-wrapper">
+              <img src="images/kancheepuram-silk-1.jpg" alt="Kancheepuram Silks">
+            </div>
+            <div class="collection-content">
+              <h3>Kancheepuram Silks</h3>
+              <p>Heavy mulberry silk brocades with pure silver & gold dipped zari motifs.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- Collection 2: Banarasi -->
+          <div class="collection-card" onclick="scrollToFeatured('banarasi')">
+            <div class="collection-image-wrapper">
+              <img src="images/banarasi-silk-1.jpg" alt="Banarasi Silks">
+            </div>
+            <div class="collection-content">
+              <h3>Banarasi Silks</h3>
+              <p>Intricate floral weaves & Mughal-inspired gold threadwork from Varanasi.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- Collection 3: Mysore -->
+          <div class="collection-card" onclick="scrollToFeatured('mysore')">
+            <div class="collection-image-wrapper">
+              <img src="images/mysore-silk-1.jpg" alt="Mysore Silks">
+            </div>
+            <div class="collection-content">
+              <h3>Mysore Silks</h3>
+              <p>Lustrous 100% crepe silk sarees with minimalist gold tissue borders.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- Collection 4: Soft Silks -->
+          <div class="collection-card" onclick="scrollToFeatured('soft-silk')">
+            <div class="collection-image-wrapper">
+              <img src="images/soft-silk-1.jpg" alt="Soft Silks">
+            </div>
+            <div class="collection-content">
+              <h3>Soft Silks</h3>
+              <p>Weightless and soft-textured silk sarees designed for festive comfort.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- Collection 5: Light Weight Kancheepuram -->
+          <div class="collection-card" onclick="scrollToFeatured('lightweight-kancheepuram')">
+            <div class="collection-image-wrapper">
+              <img src="images/kancheepuram-lightweight-silk-1.jpg" alt="Light Weight Kancheepuram">
+            </div>
+            <div class="collection-content">
+              <h3>Light Weight Kancheepuram</h3>
+              <p>Contemporary light weave fusion with authentic Kanchipuram durability.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <!-- Collection 6: Kerala Sarees -->
+          <div class="collection-card" onclick="scrollToFeatured('kerala')">
+            <div class="collection-image-wrapper">
+              <img src="images/kerala-silk-1.jpg" alt="Kerala Sarees">
+            </div>
+            <div class="collection-content">
+              <h3>Kerala Sarees</h3>
+              <p>Pristine off-white Kasavu cotton-silk blends with golden zari borders.</p>
+              <span class="collection-link">View Featured Saree <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Why Choose SGKS Silks (Value Propositions) -->
+    <section class="why-us section-padding" id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">The SGKS Distinction</span>
+          <h2 class="section-title">Why Choose SGKS Silks?</h2>
+          <p class="section-description">Every saree reflects uncompromised quality and traditional handloom mastery.</p>
+        </div>
+
+        <div class="value-grid">
+          <div class="value-card">
+            <div class="value-icon"><i class="fas fa-gem"></i></div>
+            <h3>100% Pure Mulberry Silk</h3>
+            <p>Sourced from high-grade silk fibers for exceptional drape, sheen, and durability.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fas fa-hands"></i></div>
+            <h3>Master Handloom Artisans</h3>
+            <p>Directly supporting traditional weaving families across India's silk centers.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fas fa-crown"></i></div>
+            <h3>Authentic Zari Weaves</h3>
+            <p>Woven with tested silver and gold zari threadwork for lasting grandeur.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fas fa-certificate"></i></div>
+            <h3>Silk Mark Certified</h3>
+            <p>Every saree comes backed by official Silk Mark authenticity certification.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Featured Sarees Showcase Section -->
+    <section class="featured section-padding" id="featured">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Curated Highlights</span>
+          <h2 class="section-title">Featured Handcrafted Sarees</h2>
+          <p class="section-description">Handpicked highlights representing our finest silk saree creations. Click any saree to view spotlight details.</p>
+        </div>
+
+        <!-- Featured Product Grid (Rendered via JS) -->
+        <div class="featured-grid" id="featured-grid">
+          <!-- Dynamic cards inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Primary Conversion Section (Contact & Inquiry) -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Inquire & Order</span>
+          <h2 class="section-title">Find the Silk Saree Made for Your Moment</h2>
+          <p class="section-description">Speak directly with our showroom team or send us a request for personalized assistance.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Actionable Contact Cards -->
+          <div class="contact-info-cards">
+            <!-- Address -> Google Maps -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-details">
+                <h3>Our Showroom</h3>
+                <p>SGKS Silks, Silk Handloom Complex, Main Street, Salem, Tamil Nadu - 636001</p>
+                <a href="https://maps.google.com/?q=SGKS+Silks+Salem" target="_blank" rel="noopener" class="contact-link">
+                  <i class="fas fa-directions"></i> Open in Google Maps
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone -> Dialer -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="contact-details">
+                <h3>Customer Care</h3>
+                <p>Direct inquiries & video shopping calls.</p>
+                <a href="tel:+918838809209" class="contact-link">
+                  <i class="fas fa-phone"></i> Call +91 883 880 9209
+                </a>
+              </div>
+            </div>
+
+            <!-- Email -> Client -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-details">
+                <h3>Email Support</h3>
+                <p>Send your custom requirements or orders.</p>
+                <a href="mailto:veeraprakash.sv27@gmail.com" class="contact-link">
+                  <i class="fas fa-paper-plane"></i> Mail veeraprakash.sv27@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lead Inquiry Form -->
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Ananya Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email or Phone Number</label>
+                <input type="text" id="form-email" class="form-input" placeholder="e.g. ananya@example.com or +91 883 880 9209" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Interested Collection / Product</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="e.g. Kancheepuram Silks / Wedding Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message / Custom Requirements</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Tell us which saree style, color, or price range you are looking for..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                <i class="fas fa-paper-plane"></i> Request Information
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Spotlight Zoom Modal -->
+  <div class="zoom-backdrop" id="zoom-backdrop" aria-hidden="true">
+    <div class="zoomed-modal-content">
+      <button class="close-zoom-btn" id="close-zoom-btn" aria-label="Close product view">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="zoomed-image-wrapper">
+        <img id="zoomed-img" src="" alt="Product Spotlight View">
+      </div>
+      <div class="zoomed-details">
+        <span class="zoomed-category" id="zoomed-category">Kancheepuram Silks</span>
+        <h2 class="zoomed-title" id="zoomed-title">Saree Title</h2>
+        <div class="zoomed-price" id="zoomed-price">₹0</div>
+        <p class="zoomed-desc" id="zoomed-desc">Description text...</p>
+        
+        <div class="zoomed-specs">
+          <div><strong>Fabric:</strong> 100% Pure Silk with Authentic Zari</div>
+          <div><strong>Origin:</strong> Traditional Handloom Weavers</div>
+          <div><strong>Guarantee:</strong> Silk Mark Certified Authenticity</div>
+        </div>
+
+        <div class="zoomed-actions">
+          <button class="btn btn-primary" id="zoomed-inquire-btn">
+            <i class="fas fa-envelope"></i> Inquire About This Saree
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. Minimal Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">SGKS <span>Silks</span></div>
+          <p class="footer-desc">Pure handloom silk sarees woven for your most cherished occasions.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#collections" class="footer-link">Collections</a></li>
+            <li><a href="#why-us" class="footer-link">Why SGKS</a></li>
+            <li><a href="#featured" class="footer-link">Featured Sarees</a></li>
+            <li><a href="#contact" class="footer-link">Inquire Now</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Collections</h4>
+          <ul class="footer-links">
+            <li><a href="#collections" class="footer-link">Kancheepuram</a></li>
+            <li><a href="#collections" class="footer-link">Banarasi</a></li>
+            <li><a href="#collections" class="footer-link">Mysore & Soft Silks</a></li>
+            <li><a href="#collections" class="footer-link">Kerala Sarees</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact</h4>
+          <p class="footer-desc">Silk Handloom Complex, Main Street, Salem</p>
+          <p class="footer-desc">Call: +91 883 880 9209</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SGKS Silks. All Rights Reserved. Silk Mark Certified Handlooms.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="styles/script.js"></script>
+</body>
+</html>
