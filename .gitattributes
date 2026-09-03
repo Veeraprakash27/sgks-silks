@@ -1,6 +1,0 @@
-images/banarasi-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
-images/kancheepuram-lightweight-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
-images/kancheepuram-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
-images/kerala-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
-images/mysore-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
-images/soft-silk-1.jpg filter=lfs diff=lfs merge=lfs -text
